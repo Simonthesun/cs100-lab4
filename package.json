@@ -50,6 +50,8 @@
   "dependencies": {
     "cross-fetch": "^2.2.2",
     "express": "^4.16.4",
-    "express-vue": "^5.7.1"
+    "express-vue": "^5.7.1",
+    "md5-file": "^4.0.0",
+    "sqlite3": "^4.0.2"
   }
 }

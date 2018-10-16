@@ -3,7 +3,7 @@
     <h1>Gallery Listing</h1>
     <ul>
       <li v-for="gallery in galleries">
-        TODO
+        <a v-bind:href="'/gallery/' + gallery.id">Gallery #{{ gallery.id }}: {{ gallery.name }} (Floor {{ gallery.floor }})</a>
       </li>
     </ul>
   </div>
@@ -18,4 +18,5 @@ export default {
 </script>
 
 <style>
+@import 'static/css/styles.css';
 </style>

@@ -1,1 +1,66 @@
+.title {
+    text-align: center;
+}
 
+a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+a .button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+
+    margin-bottom: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+	margin-bottom: 25px;
+}
+
+table, th, td {
+
+    text-align: center;
+	border-collapse: collapse;
+}
+
+#objects th, #objects td {
+	border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+
+    padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+.gallery-image {
+    width: 80px;
+}
+
+img {
+	max-width: 25vw;
+}
+
+body {
+	font-family: Georgia;
+	align-content: center;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+button {
+	margin-bottom: 25px;
+}
